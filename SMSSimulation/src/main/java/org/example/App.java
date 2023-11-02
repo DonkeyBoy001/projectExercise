@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 public class App {
     public static void main( String[] args ) {
-        int numOfMessages = 100;
+        int numOfMessages = 1000;
         int numOfSenders = 5;
         int meanProcessingTime = 200; // ms
         double failureRate = 0.1;
